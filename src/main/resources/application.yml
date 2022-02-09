@@ -1,0 +1,7 @@
+spring:
+  sleuth:
+    reactor:
+      enabled: true
+      instrumentation-type: decorate_on_each
+    tracer:
+      mode: brave
